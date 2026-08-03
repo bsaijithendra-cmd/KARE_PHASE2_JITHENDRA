@@ -1,0 +1,28 @@
+Polindrome of a number
+  
+  mport java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner obj = new Scanner(System.in);
+
+        System.out.print("Enter the number: ");
+        int n = obj.nextInt();
+
+        int temp = n, d, rev = 0;
+
+        while (n != 0) {
+            d = n % 10;
+            rev = rev * 10 + d;
+            n = n / 10;
+        }
+
+        if (temp == rev)
+            System.out.println("Palindrome Number");
+        else
+            System.out.println("Not a Palindrome Number");
+
+        obj.close();
+    }
+}
