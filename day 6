@@ -27,7 +27,6 @@ class Main {
     }
 }
 
-
 import java.util.Scanner;
 
 class Main {
@@ -37,7 +36,8 @@ class Main {
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
 
-        int temp = num;
+        int square = num * num;
+        int temp = square;
         int sum = 0;
 
         while (temp > 0) {
@@ -46,9 +46,18 @@ class Main {
             temp = temp / 10;
         }
 
-        if (num % sum == 0) {
-            System.out.println(num + " is a Harshad Number");
+        System.out.println("Square of the number = " + square);
+
+        if (sum == num) {
+            System.out.println(num + " is a Neon Number");
         } else {
+            System.out.println(num + " is not a Neon Number");
+        }
+    }
+}
+
+
+        
             System.out.println(num + " is not a Harshad Number");
         }
     }
