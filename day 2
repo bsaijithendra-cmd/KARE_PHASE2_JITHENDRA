@@ -8,7 +8,7 @@ class Main{
        else
        System.out.print("No name");
     }
-}//output: Gouse
+}//output: Jithendra
 //use case of if else when if condition false
 import java.util.Scanner;
 class Main{
