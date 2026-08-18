@@ -1,0 +1,264 @@
+//program for pre and post incriment and decriment.
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt(); //a=29
+		int b,c,d,e;
+		
+		 b=a++;
+		 c=--b;
+		 d=c++;
+		 e=++d;
+		 System.out.println(a + " "+ b+" "+c+" "+d+" "+e);
+			
+	}
+}
+
+//output
+// 30 28 29 29 29
+
+import java.util.*;
+public class Main{
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = a++;
+        int c = b--;
+        int d = --c;
+        int e = d++;
+        int f = e--;
+        System.out.println(f++);
+        System.out.println(a+" "+b+" "+c+" "+d+" "+e+" "+f);
+        
+    }
+}
+
+Output:
+99
+98
+100 98 98 99 97 99
+
+
+//program for conditional statement - if/else.
+public class Main{
+    public static void main(String args[]){
+        if(true)
+        System.out.println("hi");
+        else
+        System.out.println("hello");
+    }
+}
+
+Output:
+hi
+
+
+//program for conditional statement - if/else.
+public class Main{
+    public static void main(String args[]){
+        int n = 3;
+        if(n==4)
+        System.out.println(n+5);
+        else
+        System.out.println(n-8);
+    }
+}
+
+Output:
+-5
+
+
+//program for conditional statement - if/else.
+public class Main{
+    public static void main(String args[]){
+        if(!true)
+        System.out.println(9+5);
+        else
+        System.out.println(5*6/2+10);
+    }
+}
+
+Output:
+25
+
+
+//program for conditional statement - if/else with error.
+public class Main{
+    public static void main(String args[]){
+        if(2+2==4)
+        System.out.print("welcome");
+        System.out.print("update your details");
+        else
+        System.out.println(5*6/2+10);
+    }
+}
+
+Output:
+Main.java:7: error: 'else' without 'if'
+        else
+        ^
+1 error
+
+//write a java program to print whether a number is even or odd
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner  scanner = new Scanner(System.in);
+		int num = scanner.nextInt();
+		if(num%2==0)
+	        System.out.println("Even");
+	    else
+	        System.out.println("Odd");
+	}
+}
+
+//whether  2 numbers are equal or not
+
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner  scanner = new Scanner(System.in);
+		int num1 = scanner.nextInt();
+		int num2 = scanner.nextInt();
+		
+		if(num1==num2)
+	        System.out.println(num1 +"and"+ num2+ " Are Equal");
+	    else
+	        System.out.println(num1 +"and"+ num2+ " Are Not Equal");
+	}
+}
+
+//write a java program to check the given person ages eligible to vote or not
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner  scanner = new Scanner(System.in);
+		int num1 = scanner.nextInt();
+		if(num1>=18)
+	        System.out.println("Eligible to vote");
+	    else
+	        System.out.println("Not Eligible to vote");
+	}
+}
+
+//write a java program to check the given person ages eligible to vote or not
+//input     output
+//9         divisble by 3
+//11        not divivsible by 3 and remainder is 2
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner  scanner = new Scanner(System.in);
+		int num1 = scanner.nextInt();
+		
+		if(num1%3==0)
+	        System.out.println("divisble by 3");
+	    else
+	        System.out.println("not divivsible by 3 and remainder is "+num1%3);
+	}
+}
+
+
+//write a java program to check the which number is greater from given two numbers
+//input     output
+//12 10         12 is Greater
+//3 56        56 is greater
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner  scanner = new Scanner(System.in);
+		int num1 = scanner.nextInt();
+		int num2 = scanner.nextInt();
+		
+		
+		if(num1>num2)
+	        System.out.println(num1+" IS GREATER");
+	    else if(num1<num2)
+	        System.out.println(num2+" IS GREATER");
+	}
+}
+
+
+//write a java program to check which of the 3 numbers is smallest
+//input     output
+//2 1 4         1 is smallest
+//23 67 98        23 is smallest
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner  scanner = new Scanner(System.in);
+		int num1 = scanner.nextInt();
+		int num2 = scanner.nextInt();
+		int num3 = scanner.nextInt();
+		
+		
+		if(num1<num2 && num1< num3)
+	        System.out.println(num1+" IS SMALLEST");
+	    else if(num2<num1 && num2< num3)
+	        System.out.println(num2+" IS SMALLEST");
+	    else if (num3<num1 && num3< num1)
+	        System.out.println(num3+"IS SMALLEST");
+	}
+}
+
+/*write a java program 
+
+*/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner  scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		if(a%3==0 && a%5==0)
+	        System.out.println("hihello");
+	    else if(a%3==0)
+	        System.out.println("hi");
+	    else if(a%5==0)
+	        System.out.println("hello");
+	}
+}
+
+
+/*write a java program to check the given is leep year or not
+
+*/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner  scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		if(a%400==0 ||a%4==0 && a%100!=0)
+	        System.out.println("Leap year");
+	    else
+	        System.out.println("not a leap year");
+	}
+}
+
+/*write a java program to check the given railway time is valid or not
+
+*/
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner  scanner = new Scanner(System.in);
+		int hour = scanner.nextInt();
+		int min = scanner.nextInt();
+		int sec = scanner.nextInt();
+		if(hour >= 0 && hour < 24 && min >= 0 && min <= 59 && sec >= 0 && sec <= 59){
+		    System.out.println("VALID");
+		}else{
+		    System.out.println("NOT VALID");
+		}
+	}
+}
