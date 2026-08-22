@@ -1,4 +1,4 @@
-class Main{
+1.class Main{
     public static void main(String [] args){
         System.out.print("cse \"KARE\" students");
     }
@@ -10,7 +10,7 @@ class Main{
     }
 }
 
-import java.util.Scanner;
+2.import java.util.Scanner;
 class Main{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
@@ -20,7 +20,7 @@ class Main{
         }
 }
 
-import java.util.Scanner;
+3.import java.util.Scanner;
 public class Main{
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class Main{
     }
 }
 
-import java.util.Scanner;
+4.import java.util.Scanner;
 public class Main{
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
@@ -58,7 +58,7 @@ class Main{
 }
 //output:  \n
 
-import java.util.Scanner;
+5.import java.util.Scanner;
 class Main{
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
@@ -71,7 +71,7 @@ class Main{
 //getting know about scanner class and displaying in display panel
 //
 
-import java.util.Scanner;
+6.import java.util.Scanner;
 public class Main{
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
@@ -81,7 +81,7 @@ public class Main{
     }
 }//output:pi values input of nextFloat
 
-import java.util.Scanner;
+7.import java.util.Scanner;
 public class Main{
     public static void main (String args[]){
         Scanner sc = new Scanner(System.in);
@@ -94,7 +94,7 @@ public class Main{
 }
 
 //write a java program to get a float number and printit with two decimal point
-import java.util.*;
+8.import java.util.*;
 class Main{
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
@@ -106,7 +106,7 @@ class Main{
 }//format specifier is important usage after printf statement its called format specifier
 
 //write a java program from user to ge a double input from user and print it
-import java.util.*;
+9.import java.util.*;
 class Main{
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
@@ -153,7 +153,7 @@ class Main{
     }
 }
 
-import java.util.Scanner;
+10.import java.util.Scanner;
 class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
