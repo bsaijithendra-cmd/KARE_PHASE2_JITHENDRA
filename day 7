@@ -1,4 +1,4 @@
-Amstrong Number :
+1.Amstrong Number :
 
 import java.util.Scanner;
 
@@ -107,7 +107,7 @@ class Main {
     }
 }
 
- Amical Pair :
+ 4.Amical Pair :
 
 import java.util.Scanner;
 
@@ -140,7 +140,7 @@ class Main {
 }
 
 //write a java program to check whether the given number is a perfect number or not 
-import java.util.*;
+5.import java.util.*;
 public class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -176,7 +176,7 @@ the given number is not a Strong number
 
 
 //write a java program to print the Strong Numbers for a given range of a numbers
-import java.util.*;
+7.import java.util.*;
 public class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -205,7 +205,7 @@ Output:
 1 2 145 
 
 //write a java program to check whether the given number is a perfect number or not 
-import java.util.*;
+8.import java.util.*;
 public class Main{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
@@ -241,7 +241,7 @@ the given number is a ArmStrong number
 the given number is not a ArmStrong Number
 
 
-import java.util.Scanner;
+9.import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -281,7 +281,7 @@ Enter a number: 14
 
 
 //write a java program to check whether the given pair of numbers are amicable pair or not 
-import java.util.Scanner;
+10.import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
